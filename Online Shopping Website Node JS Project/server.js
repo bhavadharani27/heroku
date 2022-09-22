@@ -32,6 +32,6 @@ if(process.env.NODE_EVR==='production'){
     app.use(express.static('./clienside/build'))
 }
 
-app.listen(6001,()=>{
-    console.log('server running at port number '+ 6001)
+app.listen(5500,()=>{
+    console.log('server running at port number '+ 5500)
 })
